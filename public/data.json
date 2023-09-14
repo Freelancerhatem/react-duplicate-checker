@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Alice",
+      "age": 25,
+      "email": "alice@example.com",
+      "image":"https://shorturl.at/uyJ48"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "age": 30,
+      "email": "bob@example.com",
+      "image":"https://shorturl.at/uyJ48"
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "age": 22,
+      "email": "charlie@example.com",
+      "image":"https://shorturl.at/uyJ48"
+    },
+    {
+      "id": 4,
+      "name": "David",
+      "age": 28,
+      "email": "david@example.com",
+      "image":"https://shorturl.at/uyJ48"
+    },
+    {
+      "id": 5,
+      "name": "Eve",
+      "age": 35,
+      "email": "eve@example.com",
+      "image":"https://shorturl.at/uyJ48"
+    },
+    {
+      "id": 6,
+      "name": "Frank",
+      "age": 29,
+      "email": "frank@example.com",
+      "image":"https://shorturl.at/uyJ48"
+    },
+    {
+      "id": 7,
+      "name": "Grace",
+      "age": 27,
+      "email": "grace@example.com",
+      "image":"https://shorturl.at/bmoC5"
+    },
+    {
+      "id": 8,
+      "name": "Helen",
+      "age": 33,
+      "email": "helen@example.com",
+      "image":"https://shorturl.at/uyJ48"
+    },
+    {
+      "id": 9,
+      "name": "Ivy",
+      "age": 26,
+      "email": "ivy@example.com",
+      "image":"https://shorturl.at/uyJ48"
+    },
+    {
+      "id": 10,
+      "name": "Jack",
+      "age": 31,
+      "email": "jack@example.com",
+      "image":"https://shorturl.at/uyJ48"
+    }
+  ]
+  
