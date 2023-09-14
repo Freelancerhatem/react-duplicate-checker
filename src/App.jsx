@@ -6,21 +6,29 @@ import Bookmarkslength from "./Bookmark/Bookmarkslength";
 function App() {
   const[data,setData]=useState([]);
   const[bookmarkdata,setBookmarkdata]=useState([]);
+  const[totalage,setTotalage]=useState(0);
+  
   
   useEffect(()=>{
     fetch('./data.json')
     .then(res=>res.json())
     .then(data=>setData(data))
   },[]);
-
+  
   const handleClick=(data)=>{
     const isExist =bookmarkdata.find(itemf=>itemf.id===data.id);
-   
+    let count=data.age;
     if(isExist){
       return alert('already added')
     }
     else{
       setBookmarkdata([...bookmarkdata,data]);
+      bookmarkdata.forEach(age=>{
+        count=count+ age.age;
+        
+       });
+       setTotalage(count)
+      
     }
    
   }
@@ -37,7 +45,7 @@ function App() {
        </div>
 
        <div className="mt-32">
-       <Bookmarkslength bookmarkdata={bookmarkdata}></Bookmarkslength>
+       <Bookmarkslength bookmarkdata={bookmarkdata} age={totalage}></Bookmarkslength>
         {
           bookmarkdata.map((emails,idx)=><Bookmark key={idx}  emails={emails}></Bookmark>)
         }
